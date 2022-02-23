@@ -1,0 +1,65 @@
+.noidungcv {
+  cursor: move;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: gainsboro;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: saddlebrown;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#sidebarCollapse {
+  z-index: 1;
+}
+
+#dongho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  /* background: #ffa17f;
+  background: -webkit-linear-gradient(to right, #00223e, #ffa17f);
+  background: linear-gradient(to right, #00223e, #ffa17f); */
+}
+#ngaythangnam{
+  margin-right: 20px;
+}
+#gio , #phut , #giay, .haicham {
+
+  height: 50px;
+  /* width: 50px; */
+  font-weight: bold;
+  font-size: 30px;
+  padding: 5px;
+  margin-left: 10px;
+}
+.macvcth, .macvdth, .macvht{
+  position: absolute;
+  background-color: rgba(169, 9, 9, 0.789);
+  color: white;
+  padding-top:0px;
+  padding-left:5px;
+  padding-right:5px;
+  padding-bottom:1px;
+  margin-left:-10px;
+  margin-top:0px;
+  z-index: 4;
+  border-radius: 6px 0px 0px 6px;
+  
+}
